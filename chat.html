@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat w/ Nico - Kokoa Clone</title>
+  </head>
+  <body id="chat-screen">
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>110%</span>
+        <i class="fa-solid fa-battery-full fa-lg"></i>
+        <i class="fa-solid fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a href="more.html">
+          <i class="fa-solid fa-angle-left fa-2x"></i>
+        </a>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">nimoos</h1>
+      </div>
+      <div class="alt-header__column">
+        <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+        <span><i class="fa-solid fa-bars fa-lg"></i></span>
+      </div>
+    </header>
+
+    <main class="main-screen main-chat">
+      <div class="chat__timestamp">Tuesday, June 30, 2020</div>
+
+      <div class="message-row">
+        <img
+          src="data:image/jpeg;base64,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"
+        />
+        <div class="message-row__content">
+          <span class="message-author">nimoos</span>
+          <div class="message__info">
+            <span class="message__bubble">Hi!</span>
+            <span class="message__time">22:27</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row message-row--own">
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="message__bubble">Hi! soomin nice to meet you</span>
+            <span class="message__time">22:27</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <form class="reply">
+      <div class="reply__column">
+        <i class="fa-regular fa-square-plus fa-lg"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="write message..." />
+        <i class="fa-regular fa-face-smile fa-lg"></i>
+        <button>
+          <i class="fa-solid fa-arrow-up"></i>
+        </button>
+      </div>
+    </form>
+    <div id="no-mobile">
+      <span>Your screen is too big ㅜㅜ</span>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/9a2a661d6a.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
